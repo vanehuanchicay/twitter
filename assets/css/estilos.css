@@ -46,7 +46,7 @@ button{
   border-style: none;
   width: 80px;
   margin-top: 230px;
-  margin-left: -100px;
+  margin-left: -140px;
   font-family: Lato;
   font-weight: 700;
   outline: none;
@@ -62,12 +62,27 @@ button:active{ /* propiedades del botón al hacer click */
   transform: translateY(0.7px)
 }
 
+
 .contenedor{
-  font-family: Lato;
-  font-weight: 700;
   background-color: #e8f3fe;
   color: #828080;
   width: 452px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 432px;
+}
+
+.user{
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Lato;
+  font-weight: 800;
+
+}
+
+.date{
+  display: block;
+  font-family: Lato;
+  font-weight: 200;
+  color: #babbbc;
+  margin-top: 3px;
 }

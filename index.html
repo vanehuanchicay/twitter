@@ -13,13 +13,14 @@
     </div>
 
     <div id="tweet">
-      <textarea id="ingreso" class="txt" rows="10" cols="40" placeholder="¿Qué estás pensando?" maxlength="140" ></textarea>
+      <textarea id="ingreso" class="txt" rows="10" cols="40" placeholder="¿Qué estás pensando?" onKeyDown="contar()" onKeyUp="contar()" ></textarea>
     </div>
+    <input id="number"  value="140" disabled size="3">
 
     <button type="button" id="btn" onclick="add()">Twittear</button>
 
-    <div id="contador" class="contenedor">
-      <!--ACA IRA NI CODIGO JS DINAMICO LOS PENSAMIENTOS-->
+
+
     </div>
     <div id="lineaTiempo">
         <!--linea de tiempo-->
