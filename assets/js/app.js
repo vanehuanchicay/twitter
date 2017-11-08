@@ -1,13 +1,15 @@
+
+// como renovar mi contador al hacer click al boton?
 function contar() {
   var max = "140";
   var text = document.getElementById("ingreso").value;
   var long = text.length;
-
     if(long <= max){
       document.getElementById("number").value = max-long;
      } else {
       document.getElementById("number").value = text.substr(0, max);
   }
+
 }
 
 
@@ -28,11 +30,15 @@ function add(){
     else {
       var cont = document.createElement("div"); // creando contenedor
       cont.className = "contenedor"  // dando una clase al contenedor
+
       var nameSpan = document.createElement("span"); // span con el nombre de usuario
-      nameSpan.className ="user"
+      nameSpan.className ="user"    // dando una clase al usuario
+
       var dateSpan = document.createElement("span"); // span con fecha de ingreso
-      dateSpan.className ="date"
+      dateSpan.className ="date"    // dando una clase a la fecha
+
       var tweetP = document.createElement("p"); // parrafo de pensamientos
+      tweetP.className ="ideas"     // dando una clase a los pensamientos
 
       // agrego mis elementos creados al contenedor
       cont.appendChild(nameSpan);
@@ -48,4 +54,5 @@ function add(){
     timeLine.insertBefore(cont, timeLine.children[0]);
 
     }
+
   }

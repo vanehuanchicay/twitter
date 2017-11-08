@@ -68,7 +68,9 @@ button:active{ /* propiedades del botón al hacer click */
   color: #828080;
   width: 452px;
   margin-top: 40px;
-  margin-left: 432px;
+  margin-left: 412px;
+  border-radius: 4px;
+
 }
 
 .user{
@@ -86,3 +88,15 @@ button:active{ /* propiedades del botón al hacer click */
   color: #babbbc;
   margin-top: 3px;
 }
+ .ideas{
+  font-family: Lato;
+  font-weight: 800;
+  font-size: 115%;
+  padding-bottom: 10px;
+ }
+
+ .number{
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 240px;
+ }
